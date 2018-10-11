@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+    background-image: url(images/background.png);
+}
+
+.green{
+    background-color: #d91667;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.blue{
+        background-color: darkslategrey;
+}
+
+.card{
+    margin: 50px;
+}
+
+.card:hover{
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+.content{
+    width: 350px;
+    height: 480px;
+    background: linear-gradient(135deg, transparent 20px, #fff 20px);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Суррогат обводки */
+  
+  .content::before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    background: linear-gradient(135deg, transparent 22px, #1698d9 20px);
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    z-index: -2;
+    border-radius: 14px;
+  }
+
+.content2{
+    width: 350px;
+    height: 480px;
+    background: linear-gradient(135deg, transparent 20px, #fff 20px);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Суррогат обводки */
+  
+  .content2::before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    background: linear-gradient(135deg, transparent 22px, #d91667 20px);
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    z-index: -2;
+    border-radius: 14px;
+  }
+
+.content3{
+    width: 350px;
+    height: 480px;
+    background: linear-gradient(135deg, transparent 20px, #fff 20px);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Суррогат обводки */
+  
+  .content3::before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    background: linear-gradient(135deg, transparent 22px, #b3b3b3 20px);
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    z-index: -2;
+    border-radius: 14px;
+  }
+
+
+.text{
+    margin: 0 15%;
+}
+
+.text h2{
+    margin-top: -15px;
+}
+
+img{
+    position: absolute;
+    bottom: 0%;
+    left: -15px;
+}
+
+.elipse{
+    border-radius: 50%;
+    height: 100px;
+	width: 100px;
+    background-color:  #1698d9;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    color: #fff;
+}
+
+.content2 .elipse{
+    background-color: #d91667;
+} 
+
+.content3 .elipse{
+    background-color: #b3b3b3;
+} 
+
+span{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.elipse h2{
+    text-align: center;
+}
+
+.elipse span{
+    text-align: center;
+    font-size: 42px;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+.::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    opacity: .7;
+} 
+
+a{
+    color: #107cb2;
+    border-bottom:  1px dashed #107cb2;
+    text-decoration: none;
+}
+/* 
+@media only screen and (max-width: 1400px){
+    .text{
+        margin: 0 10%;
+    }
+    .wrapper{
+        margin: 30px 5%;
+    }
+}
+  
+
+@media only screen and (max-width: 1250px){
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        min-height: 48vh;
+        font-size: 16px;
+        margin: 30px 5%;
+    }
+}
+  
+
+@media only screen and (max-width: 768px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        margin: 30px 20%;
+    }
+    .wrapper content3{
+        align-items: center;
+    }
+
+ }
+
+ @media only screen and (max-width: 570px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        margin: 0 5%;
+    }
+
+ } */
